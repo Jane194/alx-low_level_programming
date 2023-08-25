@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <string.h>
 #include "lists.h"
-#include <stdio.h>
 
 /**
  * add_node_end - adds a new node at the end of a linked list
@@ -39,3 +38,4 @@ temp = temp->next;
 temp->next = new;
 
 return (new);
+}
